@@ -1,0 +1,66 @@
+main {
+    font-family: Roboto, sans-serif;
+    color: #f5f4f2;
+    background-color: #181818;
+    width: 100vw;
+  }
+  
+  #navigation {
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+    position: fixed;
+    align-items: center;
+    top: 0;
+    background-color: #dea882;
+    width: 100vw;
+    height: 70px;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .nav a {
+    color: #f5f4f2
+  }
+  
+  .projects a {
+    color: #dea882;
+    margin-top: 0;
+  }
+  
+  
+  .welcome {
+    margin-top: 70px;
+    margin-bottom: 50px;
+    
+    width: 500px;
+  }
+  
+  h1 {
+    font-weight: bold;
+    font-size: 50px;
+  }
+  
+  #description {
+    font-size: 20px;
+  }
+  
+  #work {
+    color:#dea882;
+    font-weight: bold;
+  }
+  
+  .project-title {
+    color: #dea882;
+    font-size: 30px;
+    margin-top: 70px;   
+  }
+  
+  #projects {
+    display: flex;
+    justify-content: center
+  }
+  
+  
