@@ -1,0 +1,176 @@
+body {
+    background-color: #253031;
+    font-family: 'Lato', sans-serif;
+}
+
+.topbar {
+    background-color: #4ea699;
+    height: 40px;
+    opacity: 25%;
+    z-index: 9999;
+    position: relative;
+}
+ 
+header a:link {
+    text-decoration: none;
+    color: #f9f9f9;
+    z-index: 9999;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+   margin-top: -30px;
+   padding: 0px 10px;
+  
+}
+
+nav {
+    z-index: 9999;
+}
+
+nav a:link {
+    opacity: 50%;
+}
+
+nav a:hover {
+    opacity: 100%;
+}
+
+nav a:active {
+    opacity: 100%;
+    font-weight: bold;
+}
+
+nav a:visited {
+    color: #f9f9f9;
+}
+
+
+
+#heroimage {
+    width: 100%; 
+    filter: grayscale(100%) blur(4px);
+    margin-top: -30px;
+    background-blend-mode: luminosity;
+}
+
+.hero {
+    position: relative;
+    text-align: center;
+    background-color: #4ea699;
+}
+
+.centered {
+    position: absolute;
+    top: 400px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#big {
+    color: #f9f9f9;
+    font-size: 80px;
+    text-align: center;
+}
+
+#small {
+    color: #f9f9f9;
+    font-size: 30px;
+    text-align: center;
+}
+
+.about {
+    margin-top: 50px;
+    height: 900px;
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.bio {
+    color: #f9f9f9;
+    width: 50%;
+    font-size: 25px;
+    display: contents;
+}
+
+#bioimg {
+    height: 900px;
+}
+
+button {
+    background-color: #FFA859;
+    border: none;
+    margin: auto 50% 100px;
+    border-radius: 50px;
+    color:#253031;
+    font-size: 25px;
+    display: inline-block;
+    height: 64px;
+    width: 150px;
+}
+
+button:hover {
+    background-color: #F2892B;
+}
+
+button:active {
+    background-color: #F2892B;
+}
+
+.resume {
+    width: 60vw;
+    margin: auto;
+}
+
+.res1 {
+   font-size: 40px;
+   color: #4ea699; 
+}
+
+.txt1 {
+   font-size: 25px;
+   font-weight: bold; 
+   color: #4ea699;
+}
+
+.yrs1 {
+    font-size: 25px;
+    font-weight: 300;
+    color: #f9f9f9;
+}
+
+.res_elements {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px
+}
+
+.lst1 {
+   font-size: 25px;
+   color: #f9f9f9; 
+   max-width: 500px;
+}
+
+.txt2 {
+    font-size: 25px;
+   color: #f9f9f9; 
+   max-width: 500px;
+}
+
+.work {
+    width: 100%;
+    background-color: #4ea699;
+    height: 80px;
+}
+
+.wrktxt {
+    font-size: 40px;
+    color: #f9f9f9;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
