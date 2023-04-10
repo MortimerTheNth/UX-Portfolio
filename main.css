@@ -98,6 +98,7 @@ nav a:visited {
     grid-auto-flow: column;
     margin-bottom: 4vw;
     width: 100%;
+    margin-top: 300px;
 }
 
 .bio {
@@ -112,13 +113,14 @@ nav a:visited {
 button {
     background-color: #FFA859;
     border: none;
-    margin: auto 50% 100px;
+    margin-left: 45%;
     border-radius: 50px;
     color:#253031;
     font-size: 25px;
     display: inline-block;
     height: 64px;
-    width: 150px;
+    width: 10%;
+    min-width: 120px;
 }
 
 button:hover {
@@ -132,41 +134,53 @@ button:active {
 .resume {
     width: 60vw;
     margin: auto;
+    display: grid;
 }
 
 .res1 {
    font-size: 40px;
    color: #4ea699; 
+   margin-top: 20px;
 }
 
 .txt1 {
    font-size: 25px;
    font-weight: bold; 
    color: #4ea699;
+   margin-bottom: 0px;
 }
 
 .yrs1 {
     font-size: 25px;
     font-weight: 300;
     color: #f9f9f9;
+    margin: 0px;
 }
 
 .res_elements {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 100px
+    margin-top: 100px
 }
 
 .lst1 {
    font-size: 25px;
    color: #f9f9f9; 
    max-width: 500px;
+   padding-left: 20px;
+
+}
+
+.title {
+    text-align: end;
+    width: 40%;
 }
 
 .txt2 {
     font-size: 25px;
    color: #f9f9f9; 
    max-width: 500px;
+   margin-top: 10px;
 }
 
 .work {
@@ -175,11 +189,20 @@ button:active {
     height: 80px;
 }
 
+.left {
+    text-align: start;
+    width: 50%;
+}
+
 .wrktxt {
     font-size: 40px;
     color: #f9f9f9;
     position: absolute;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.resume {
+    margin-bottom: 100px;
 }
 
