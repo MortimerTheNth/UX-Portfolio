@@ -310,6 +310,7 @@ button:active {
     width: 400px;
     align-items: center;
     margin-left: 10%;
+    margin-top: 3vw;
   }
   
   .slide-title {
@@ -412,4 +413,30 @@ button:active {
     }
   }
   
+.contact {
+  width: 100%;
+  text-align: center;
+  background-color: #4ea699;
+  height: 16vw;
+}
 
+.faicons {
+  display: block;
+  
+}
+
+
+.icontext {
+  display: flex;
+  justify-content: space-between;
+  width: 13vw;
+  margin-left: 43%;
+  margin-top: 15px;
+  margin-bottom: 1vw;
+}
+
+.footer {
+  height: 3vw;
+  text-align: center;
+  font-size: small;
+}
