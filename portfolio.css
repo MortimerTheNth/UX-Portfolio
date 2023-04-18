@@ -68,12 +68,12 @@ nav a:visited {
 
 #heroimage {
     width: 100%; 
-    filter: grayscale(100%) blur(4px);
+    filter: blur(4px) brightness(75%);
     position: absolute;
     z-index: -1;
     max-height: 900px;
-    mix-blend-mode: luminosity;
     margin: auto;
+    mix-blend-mode: luminosity;
 }
 
 #herobcg {
@@ -97,6 +97,8 @@ nav a:visited {
     color: #f9f9f9;
     font-size: 5vw; 
     padding-top: 20%;
+    margin-top: 0;
+    margin-bottom: 23vw;
 }
 
 .folio {
@@ -104,8 +106,94 @@ nav a:visited {
     
 }
 
+
+button {
+    background-color: #FFA859;
+    border: none;
+    border-radius: 50px;
+    color:#253031;
+    font-size: calc(5px + 1vw);
+    display: inline-block;
+    height: 3vw;
+    width: 10vw;
+    min-width: 150px;
+}
+
+button:hover {
+    background-color: #F2892B;
+}
+
+.prj-txt-s {
+    color: #f9f9f9;
+    font-size: 1.5vw;
+}
+
+.prj-txt-l {
+    color: #4ea699;
+    font-size: 2.5vw;
+}
+
+.txt {
+    width: 20vw;
+    text-align: center;
+    margin-top: 7vw;
+}
+
+.project img {
+    width: 40vw;
+    height: auto;
+}
+
+.project img:hover {
+    width: 50vw;
+    height: auto;
+}
+
 .project {
-    display: inline-flex;
-    height: 20vw;
-    background-color: aquamarine;
+    width: 100%;
+}
+
+.pic-txt {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-left: 13vw;
+}
+
+.pic-txt2 {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-left: 7vw;
+}
+
+.pic-txt3 {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-left: 13vw;
+}
+
+.folio {
+    margin-bottom: 5vw;
+}
+
+.footer {
+    color: #f9f9f9;
+    font-size: 0.8vw;
+    text-align: center; 
+    height: 3.5vw;
+    margin: auto;
+}
+
+.footer p {
+    margin-bottom: 0px;
+}
+
+.foot-year {
+    margin-top: 0px;
+}
+
+.foot-name {
+    margin-top: 0;
 }
