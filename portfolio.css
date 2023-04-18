@@ -1,0 +1,111 @@
+body {
+    background-color: #253031;
+    font-family: 'Lato', sans-serif;
+    margin: auto;
+}
+
+.topbar {
+    background-color: rgba(78, 166, 153, 0.4);
+    height: 60px;
+    z-index: 1;
+    position: fixed;
+    width: 100%;
+
+}
+ 
+header a:link {
+    text-decoration: none;
+    color: #f9f9f9;
+    z-index: 9999; 
+}
+
+.logo {
+  margin-left: 1vw;
+  font-size: 1.2vw;
+}
+
+.logo:hover {
+  font-size: 1.4vw;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+   padding: 0px 10px;
+   height: 100%;
+   align-items: center;
+   
+}
+
+nav {
+    z-index: 9999;
+}
+
+nav a {
+  margin-right: 1vw;
+  font-size: 1.2vw;
+}
+
+nav a:link {
+    opacity: 50%;
+}
+
+nav a:hover {
+    opacity: 100%;
+    font-size: 1.4vw;
+}
+
+nav a:active {
+    opacity: 100%;
+    font-weight: bold;
+}
+
+nav a:visited {
+    color: #f9f9f9;
+}
+
+
+
+#heroimage {
+    width: 100%; 
+    filter: grayscale(100%) blur(4px);
+    position: absolute;
+    z-index: -1;
+    max-height: 900px;
+    mix-blend-mode: luminosity;
+    margin: auto;
+}
+
+#herobcg {
+    width: 100%; 
+    position: absolute;
+    z-index: -1;
+    max-height: 900px;
+    filter: blur(4px);
+}
+
+
+
+.centered {
+    margin: auto;
+    vertical-align: middle;
+    text-align: center;
+    
+}
+
+#big {
+    color: #f9f9f9;
+    font-size: 5vw; 
+    padding-top: 20%;
+}
+
+.folio {
+    width: 80%;
+    
+}
+
+.project {
+    display: inline-flex;
+    height: 20vw;
+    background-color: aquamarine;
+}
