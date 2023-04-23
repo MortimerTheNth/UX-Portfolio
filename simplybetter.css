@@ -588,15 +588,34 @@ main p {
 }
 
 #circle1 {
-  width: 10vw;
-  height: 10vw;
+  width: 12vw;
+  height: 12vw;
   background-color: #4ea699;
   border-radius: 100%;
+  
+}
+
+#circle2 {
+  width: 12vw;
+  height: 12vw;
+  background-color: #4ea699;
+  border-radius: 100%;
+  
+}
+
+#circle3 {
+  width: 12vw;
+  height: 12vw;
+  background-color: #4ea699;
+  border-radius: 100%;
+  
 }
 
 .card-circle {
   width: 100%;
   z-index: 1;
+  margin: auto;
+  margin-top: -33vW;
 }
 
 .card-txt {
@@ -620,4 +639,21 @@ main p {
   margin-bottom: 20%;
 }
 
+.card-number {
+  font-size: 3.5vw;
+  text-align: center;
+  position: relative;
+  top: 25%;
+}
+
 /* cards end */
+
+#mid2 {
+  margin-bottom: 10%;
+}
+
+#p6 {
+  margin-top: 25vw;
+}
+
+
