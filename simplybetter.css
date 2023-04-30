@@ -1095,3 +1095,54 @@ main p {
 }
 
 
+/* tablet horizontal */
+
+@media (min-width: 1280px) and (max-width: 1600px) {
+
+  .hero {
+    height: 750px;
+  }
+
+  .hero img {
+    height: 700px;
+  }
+
+  .slide-text1 {
+    margin-bottom: 5px;
+    margin-top: -20px;
+    width: 150px;
+  }
+
+  .slide-image4 img {
+    height: 500px;
+    width: auto;
+  }
+
+  .statement {
+    margin-left: 6.5vw;
+  }
+  
+  #img-desktop {
+    margin-left: 0;
+    width: 350px;
+    height: auto;
+  }
+
+  #img-mobile {
+    margin-left: 0;
+  }
+}
+
+/* tablet vertical */
+
+@media (min-width: 768px) and (max-width: 1280px) {
+
+  .hero {
+    height: 450px;
+  }
+
+  .hero img {
+    height: 400px;
+  }
+
+}
