@@ -174,8 +174,6 @@ main p {
       width: 70%;
       height: 30vw;
       margin: 50px auto;
-      box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12),
-        0 3px 1px -2px rgba(0, 0, 0, 0.2);
       overflow: hidden;
     }
     
@@ -1141,7 +1139,13 @@ main p {
     height: 450px;
   }
 
-  .hero img {
+  #heroimage {
+    min-height: 350px;
+    height: 400px;
+  }
+
+  #herobcg {
+    min-height: 350px;
     height: 400px;
   }
 
