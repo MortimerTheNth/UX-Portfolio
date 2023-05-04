@@ -114,8 +114,8 @@ header a:visited {
 }
 
 .desc {
-    width: 50%;
-    margin-left: 10%;
+    width: 60%;
+    margin: auto;
     margin-bottom: 3%;
     display: flex;
     justify-content:space-between;
@@ -136,7 +136,7 @@ main p {
 }
 
 .par {
-    width: 80%;
+    width: 60%;
     margin: auto;
     margin-bottom: 3%;
 }
@@ -245,15 +245,14 @@ main p {
     }
     
     .slide-content {
-      align-items: center;
-      margin-top: 15%;
+      text-align: center;
+      width: 100%;
+      margin-bottom: 5px;
     }
-    
     
     .slide-text1 {
-      margin-bottom: 20px;
+
     }
-    
     .slide-link {
       display: inline-block;
       padding: 10px 20px;
@@ -354,12 +353,12 @@ main p {
 }
 
 #map {
-    width: 80%;
+    width: 100%;
     margin: auto;
 }
 
 #journey {
-    width: 50%;
+    width: 100%;
     margin-bottom: 3vh;
     margin: auto;
 }
@@ -416,7 +415,6 @@ main p {
     .slide-image2 img {
       width: 40vw;
       height: auto;
-      margin-left: 8vw;
     }
 
 
@@ -427,7 +425,6 @@ main p {
     .statement {
       color: #4ea699;
       width: 40vw;
-      margin-left: 8vw;
     }
 
     .slide-content2 {
@@ -438,7 +435,6 @@ main p {
     .slide-text1-2 {
      font-size: 1rem; 
      width: 40vw;
-     margin-left: 8vw;
     }
     
     
@@ -480,11 +476,11 @@ main p {
 /* carousel 2 end */
 
 .desc-b {
-  width: 80%;
-  margin: auto;
-  margin-bottom: 5%;
-  display: flex;
-  justify-content:space-between;
+    width: 60%;
+    margin: auto;
+    margin-bottom: 3%;
+    display: flex;
+    justify-content:space-between;
 }
 
 .desc4 {
@@ -555,7 +551,7 @@ main p {
   width: 70%;
   height: auto;
   display: block;
-  margin-left: 10vw;
+  margin-left: 8vw;
 }
 
 
@@ -595,31 +591,48 @@ main p {
 
 /*carousel 3 end */
 
+#dig1 {
+  width: 100%;
+  margin: auto;
+  margin-top: 3vh;
+  margin-bottom: 3vw;
+}
+
+#dig2 {
+  width: 100%;
+  margin: auto;
+  margin-top: 3vh;
+  margin-bottom: 3vw;
+}
 
 /* cards */
 
 .cards {
-  width: 80%;
+  width: 70%;
   margin: auto;
   display: flex;
   justify-content: space-evenly;
 }
 
 #card1 {
-  width: 25%;
+  width: 20%;
 }
 
 #card2 {
-  width: 25%;
+  width: 20%;
 }
 
 #card3 {
-  width: 25%;
+  width: 20%;
+}
+
+#card4 {
+  width: 20%;
 }
 
 .card-back {
   width: 100%;
-  height: 27vw;
+  height: 46vh;
   background-color: #f9f9f9;
   border-radius: 5%;
   z-index: 0;
@@ -649,11 +662,19 @@ main p {
   
 }
 
+#circle4 {
+  width: 12vw;
+  height: 12vw;
+  background-color: #4ea699;
+  border-radius: 100%;  
+}
+
+
 .card-circle {
   width: 100%;
   z-index: 1;
   margin: auto;
-  margin-top: -33vW;
+  margin-top: -60vh;
 }
 
 .card-txt {
@@ -661,7 +682,6 @@ main p {
   width: 80%;
   margin: auto;
   text-align: center;
-  vertical-align: middle;
   font-size: 1.2rem;
 }
 
@@ -675,9 +695,7 @@ main p {
   font-size: 1.5rem;
 }
 
-#title2, #title3 {
-  margin-bottom: 20%;
-}
+
 
 .card-number {
   font-size: 3.5vw;
@@ -689,11 +707,16 @@ main p {
 
 /* cards end */
 
+#ba-txt {
+  width: 100%;
+  text-align: center;
+}
+
 /* carousel 4 */
 
 #slider4 {
-  height: 40vw;
-  width: 30%;
+  height: 600px;
+  width: 718px;
 }
 
 .slider-controls4 {
@@ -712,7 +735,6 @@ main p {
 
 .slide-content4 {
   width: 100%;
-  margin-left: 5%;
 }
 
 
@@ -732,9 +754,7 @@ main p {
   display: block;
 }
 
-.slide-image4 {
-  margin-left: 6vw;
-}
+
 
 #btn-7:checked ~ .slider-controls4 label[for="btn-7"] {
   background-color:#4ea699;
@@ -777,8 +797,8 @@ main p {
 /* carousel 5 */
 
 #slider5 {
-  height: 40vw;
-  width: 30%;
+  height: 600px;
+  width: 718px;
 }
 
 .slider-controls5 {
@@ -844,8 +864,8 @@ main p {
 /* carousel 6 */
 
 #slider6 {
-  height: 40vw;
-  width: 30%;
+  height: 600px;
+  width: 718px;
 }
 
 .slider-controls6 {
@@ -907,6 +927,73 @@ main p {
 }
 
 /* carousel 6 end */
+
+/* carousel 8 */
+
+#slider9 {
+  height: 600px;
+  width: 718px;
+}
+
+.slider-controls9 {
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  width: 200px;
+  text-align: center;
+  transform: translatex(-50%);
+  z-index: 1000;
+
+  list-style: none;
+  text-align: center;
+}
+
+.slider-controls9 label {
+  display: inline-block;
+  border: none;
+  height: 1vw;
+  width: 1vw;
+  border-radius: 50%;
+  cursor: pointer;
+  background-color: #212121;
+  transition: background-color 0.2s linear;
+}
+
+#btn-17:checked ~ .slider-controls6 label[for="btn-17"] {
+  background-color:#4ea699;
+}
+
+#btn-18:checked ~ .slider-controls6 label[for="btn-18"] {
+  background-color: #4ea699;
+}
+
+
+/* Slide animations */
+#btn-17:checked ~ .slides .slide:nth-child(1) {
+  transform: translatex(0);
+  opacity: 1;
+}
+
+#btn-18:checked ~ .slides .slide:nth-child(2) {
+  transform: translatex(0);
+  opacity: 1;
+}
+
+
+
+#btn-17:not(:checked) ~ .slides .slide:nth-child(1) {
+  animation-name: swap-out;
+  animation-duration: 300ms;
+  animation-timing-function: linear;
+}
+
+#btn-18:not(:checked) ~ .slides .slide:nth-child(2) {
+  animation-name: swap-out;
+  animation-duration: 300ms;
+  animation-timing-function: linear;
+}
+
+/* carousel 9 end */
 
 #par6-txt {
   margin-bottom: 2vw;
@@ -1027,7 +1114,7 @@ main p {
 
 /* carousel 7 end */
 
-/* carousel 7 */
+/* carousel 8 */
 
 #slider8 {
   height: 60vw;
@@ -1114,8 +1201,10 @@ main p {
 /* carousel 7 end */
 
 #take {
-  width: 80%;
+  width: 60%;
   margin-bottom: 5vw;
+  display: flex;
+  justify-content: space-between;
 }
 
 #mid5 {
