@@ -217,7 +217,7 @@ button:active {
 .wrktxt {
     font-size: 2.5vw;
     color: #f9f9f9;
-    position: absolute;
+    
     margin-left: 40%;
     margin-top: 12px;
 }
@@ -488,6 +488,23 @@ button:active {
   }
 
   .social {
-    column-gap: 2vw;
-    font-size: 1.5vw;
+    display: flex;
+    justify-content: center;
+    width: 5%;
+    margin: auto;
+  }
+
+
+  .btn2 {
+    background: none;
+    border: none;
+    font-size: 2.5rem;
+    color: #f9f9f9;
+    cursor: pointer;
+  }
+
+  .btn2:hover {
+    background: none;
+    font-size: 3rem;
+    color: #F2892B;
   }

@@ -71,7 +71,7 @@ header a:visited {
 
 #heroimage {
     width: 100%; 
-    filter: grayscale(100%) blur(4px) brightness(50%);
+    filter: grayscale(100%) blur(8px) brightness(80%);
     position: absolute;
     z-index: -1;
     max-height: 850px;
@@ -86,7 +86,7 @@ header a:visited {
     z-index: -1;
     max-height: 850px;
     min-height: 700px;
-    filter: blur(4px);
+    filter: blur(8px);
 }
 
 
