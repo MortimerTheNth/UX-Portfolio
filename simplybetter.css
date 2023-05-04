@@ -21,7 +21,7 @@ header a:link {
 
 .logo {
   margin-left: 1vw;
-  font-size: 1.2vw;
+  font-size: 1rem;
 }
 
 .logo:hover {
@@ -43,7 +43,7 @@ nav {
 
 nav a {
   margin-right: 1vw;
-  font-size: 1.2vw;
+  font-size: 1rem;
 }
 
 nav a:link {

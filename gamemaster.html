@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="gamemaster.css">
+         <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/389491468f.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="topbar">
+            <header>
+                <a class="logo" href="#home">Martyna Szczepaniak</a>
+                <nav id="navbar">
+                    <a class="navlink" href="#about">about</a>
+                    <a class="navlink" href="#resume">resume</a>
+                    <a class="navlink" href="#work">work</a>
+                    <a class="navlink" href="#contact">contact</a>        
+                </nav>   
+            </header> 
+        </div> 
+       <div class="hero" id="home">
+            <img id="herobcg" src="hero bcg.jpg" alt="simplybetter hero image">
+            <img id="heroimage" src="BetterHelp/cover.png" alt="SimplyBetter hero image">
+            <div class="centered">
+                <p id="big"> GameMaster</p>
+                <p id="small">Arcade High-Score Tracking App</p>
+            </div>
+       </div>
+       <main>
+            <div class="desc">
+                <div class="desc1">
+                    <h2 class="description" id="role">My role</h2>
+                    <p class="desc-txt" id="role-txt">UX designer designing a GameMaster app from conception to delivery.</p>
+                </div>
+                <div class="desc2">
+                    <h2 class="description" id="tool">Tool</h2>
+                    <p class="desc-txt" id="tool-txt">Figma</p>
+                </div>
+            </div>
+            <div class="par">
+                <h1 class="par-desc" id="par1">Designed for Fun</h1>
+                <div class="underline"></div>
+                <p class="par-txt" id="par1-txt">GameMaster is an app that allows users to keep track of their score in arcade games with additional function of finding and inviting other players for a match. GameMaster targets various users, from competitive players to children (multiple profiles on one account for parental control).</p>
+            </div>
+            <div class="par">
+                <h1 class="par-desc" id="par1">Overview</h1>
+                <div class="underline"></div>
+                    <div class="slider" id="slider0">
+                        <input type="radio" name="toggle" id="btn-1" checked>
+                        <input type="radio" name="toggle" id="btn-2">                                             
+                        <div class="slider-controls">
+                          <label for="btn-1"></label>
+                          <label for="btn-2"></label>
+                        </div>                      
+                        <ul class="slides">
+                          <li class="slide">
+                            <div class="personas">
+                            <p class="slide-image">
+                                <img src="game/scan1.png" alt="home page">
+                              </p>
+                            <div class="slide-content">
+                              <p class="slide-text1">Easy and straightforward connection to the arcade machine</p>
+                            </div>   
+                        </div>                        
+                          </li>
+                          <li class="slide">
+                            <div class="personas">
+                            <p class="slide-image">
+                                <img src="game/higha.png" alt="job post">
+                              </p>
+                            <div class="slide-content">
+                              <p class="slide-text1">Fast access to the game history and high scores</p>
+                            </div>                
+                        </div>            
+                          </li>
+                        </ul>
+                    </div>
+                </div>
+            <div class="par">
+                <h1 class="par-desc" id="par2">Understanding</h1>
+                <div class="underline"></div>
+                <div class="desc1" id="as-desc">
+                    <h2 class="description" id="assumptions">Assumptions</h2>
+                    <p class="assumpt-txt" id="as-txt1"><span class="as-span">Users:</span> Casual and competitive arcade gamers.</p>
+                    <p class="assumpt-txt" id="as-txt1"><span class="as-span">User Goals:</span> Get better at games, find a quick way to track scores, easy access to other users and inviting them to play together.</p>
+                    <p class="assumpt-txt" id="as-txt1"><span class="as-span">Potential features:</span> QR pairing, forum, friends list, parental control</p>
+                </div>
+                <h2 class="mid" id="mid0">User Research Pain Points</h2>
+            </div>    
+                <div class="cards">
+                    <div id="card1">
+                        <div class="card" id="first-card">
+                            <div class="card-back" id="back1">
+                                <h3 class="card-title" id="title1-1">Time</h3>
+                                <p class="card-txt" id="txt1">Studying young adults are to busy to keep track of their score on their own</p>
+                            </div>
+                            <div class="card-circle" id="circle1">
+                                <h1 class="card-number" id="number1">1</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="card2">
+                        <div class="card" id="sec-card">
+                            <div class="card-back" id="back2">
+                                <h3 class="card-title" id="title2-1">Child Friendly Features</h3>
+                                <p class="card-txt" id="txt2">Score tracking apps don’t focus on implementing child friendly features</p>
+                            </div>
+                            <div class="card-circle" id="circle2">
+                                <h1 class="card-number" id="number2">2</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="card3">
+                        <div class="card" id="third-card">
+                            <div class="card-back" id="back3">
+                                <h3 class="card-title" id="title3-1">Accesibility</h3>
+                                <p class="card-txt" id="txt3">Platforms for score tracking are not equipped with assistive technologies</p>
+                            </div>
+                            <div class="card-circle" id="circle3">
+                                <h1 class="card-number" id="number3">3</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="card4">
+                        <div class="card" id="fourth-card">
+                            <div class="card-back" id="back4">
+                                <h3 class="card-title" id="title4-1">Design</h3>
+                                <p class="card-txt" id="txt4">Most of the Arcade related apps have dated, not user friendly design</p>
+                            </div>
+                            <div class="card-circle" id="circle4">
+                                <h1 class="card-number" id="number4">4</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="par">
+                <h2 class="mid" id="mid1">Meet the Users</h2>
+                <img class="image" id="felix" src="game/persona felix.png" alt="Persona">
+                <h3 class="statement" id="persona problem">Problem Statement</h3>
+                <p class="par-txt" id="felix problem">Felix is a 21-year-old student who needs an app that allows him to share and compare high scores because he spends a lot of time playing with his friends and preparing for a tournament.</p>
+                <div id="map">
+                    <h2 class="mid" id="mid1-5">User Journey Map</h2>
+                    <img class="image" id="journey" src="game/user journey felix.png" alt="User journey">
+                </div>
+            </div>   
+            <div class="par">
+                <h1 class="par-desc" id="par3">Initial Design Process</h1>
+                <div class="underline"></div>
+            <h2 class="mid" id="mid4">Paper Wireframes</h2>
+            <p class="par-txt" id="par3-txt-3">Taking the time to draft iterations of each screen of the app on paper ensured that the elements that made it to digital wireframes would be well-suited to address user pain points. For the home screen, I prioritized a quickly and easily accessible scan button to help users save time.</p>
+
+            <div class="slider" id="slider3">
+                <input type="radio" name="toggle3" id="btn-5" checked>
+                <input type="radio" name="toggle3" id="btn-6">                                             
+                <div class="slider-controls3">
+                <label for="btn-5"></label>
+                <label for="btn-6"></label>
+                </div>                      
+                    <ul class="slides">
+                        <li class="slide">
+                            <p class="slide-image3">
+                                <img src="game/arcade1.png" alt="wireframes 1">
+                            </p>          
+                        </li>
+                        <li class="slide">
+                            <p class="slide-image3">
+                                <img src="game/arcade3.png" alt="wireframes 2">
+                            </p>        
+                        </li>
+                    </ul>
+                </div>
+            </div>    
+            <div class="par">
+                <h2 class="mid" id="mid4">Digital Wireframes</h2>
+                <p class="par-txt" id="par4-txt">As the initial design phase continued, I made sure to base screen designs on feedback and findings from  the user research.</p>
+                <p class="par-txt" id="par4-txt-2">Using the completed set of digital wireframes, I created a low-fidelity prototype. The primary user flow I connected was connecting the device to an arcade machine and finding the opponent, so the prototype could be used in a usability study.</p>
+                <img class="image" id="dig2" src="game/Image 7.png" alt="digital wireframes 2">
+            </div>
+            <div class="par">
+                <h1 class="par-desc" id="par1">Usability Study</h1>
+                <div class="underline"></div>
+            </div>
+            <div class="desc-b">
+                <div class="desc3">
+                    <h2 class="description" id="role1">Study Type</h2>
+                    <p class="desc-txt" id="role-txt1">Unmoderated usability study</p>
+                </div>
+                <div class="desc4">
+                    <h2 class="description" id="tool1">Location</h2>
+                    <p class="desc-txt" id="tool-txt1">Poland, remote</p>
+                </div>
+            </div>
+            <div class="desc-b">   
+                <div class="desc5">
+                    <h2 class="description" id="role2">Participants</h2>
+                    <p class="desc-txt" id="role-txt2">5 participants, 3 male, 2 female, ages 6-45</p>
+                </div>
+                <div class="desc6">
+                    <h2 class="description" id="tool2">Length</h2>
+                    <p class="desc-txt" id="tool-txt2">15-25 minutes per session</p>
+                </div>
+            </div> 
+            <h2 class="mid" id="mid2">Usability Study Findings</h2>
+            <div class="cards">
+                <div id="card1-2">
+                    <div class="card" id="first-card">
+                        <div class="card-back" id="back1">
+                            <h3 class="card-title" id="title1">Scanner</h3>
+                            <p class="card-txt" id="txt1">The QR scanner button should be more visible</p>
+                        </div>
+                        <div class="card-circle" id="circle1">
+                            <h1 class="card-number" id="number1">1</h1>
+                        </div>
+                    </div>
+                </div>
+                <div id="card2-2">
+                    <div class="card" id="sec-card">
+                        <div class="card-back" id="back2">
+                            <h3 class="card-title" id="title2">Labeling</h3>
+                            <p class="card-txt" id="txt2">Connecting to other users is confusing</p>
+                        </div>
+                        <div class="card-circle" id="circle2">
+                            <h1 class="card-number" id="number2">2</h1>
+                        </div>
+                    </div>
+                </div>
+                <div id="card3-2">
+                    <div class="card" id="third-card">
+                        <div class="card-back" id="back3">
+                            <h3 class="card-title" id="title3">Manual Score Input</h3>
+                            <p class="card-txt" id="txt3">The process of manually inputting score should be simplified</p>
+                        </div>
+                        <div class="card-circle" id="circle3">
+                            <h1 class="card-number" id="number3">3</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="par" id="p6">
+                <h1 class="par-desc" id="par6">Refining the Design</h1>
+                <div class="underline"></div>
+                <p class="par-txt" id="par6-txt">Early designs allowed for connecting to the other users, but after the usability studies, I switched the “invite” button to “send message” to give users an option to talk to the potential opponent fist. I've also revised the design so users see QR code scanner better when they first land on the home screen.</p>
+            </div>
+            <div class="slider" id="slider4">
+                <input type="radio" name="toggle4" id="btn-7" checked>
+                <input type="radio" name="toggle4" id="btn-8">                                             
+                <div class="slider-controls4">
+                <label for="btn-7"></label>
+                <label for="btn-8"></label>
+                </div>                      
+                    <ul class="slides">
+                        <li class="slide">
+                            <div id="be-af">
+                            <div class="slide-content4">
+                                <h3 class="statement" id="ba-txt">Before Usability Study</h3>
+                            </div>
+                            <p class="slide-image4">
+                                <img src="game/before-after/home b.png" alt="before usability study 1" height="600px">
+                            </p>
+                        </div>                 
+                        </li>
+                        <li class="slide">
+                            <div id="be-af">
+                                <div class="slide-content4">
+                                    <h3 class="statement" id="ba-txt">After Usability Study</h3>
+                                </div>
+                            <p class="slide-image4">
+                                <img src="game/before-after/home a.png" alt="after usability study 1" height="600px">
+                            </p>   
+                            </div>     
+                        </li>
+                    </ul>
+                </div>
+            </div> 
+            <div class="slider" id="slider5">
+                <input type="radio" name="toggle5" id="btn-9" checked>
+                <input type="radio" name="toggle5" id="btn-10">                                             
+                <div class="slider-controls5">
+                <label for="btn-9"></label>
+                <label for="btn-10"></label>
+                </div>                      
+                    <ul class="slides">
+                        <li class="slide">
+                            <div id="be-af">
+                            <div class="slide-content4">
+                                <h3 class="statement" id="ba-txt">Before Usability Study</h3>
+                            </div>
+                            <p class="slide-image4">
+                                <img src="game/before-after/user b.png" alt="before usability study 2" height="600px">
+                            </p>
+                        </div>                 
+                        </li>
+                        <li class="slide">
+                            <div id="be-af">
+                                <div class="slide-content4">
+                                    <h3 class="statement" id="ba-txt">After Usability Study</h3>
+                                </div>
+                            <p class="slide-image4">
+                                <img src="game/before-after/user a.png" alt="after usability study 2" height="600px">
+                            </p>   
+                            </div>     
+                        </li>
+                    </ul>
+                </div>
+            </div> 
+            <div class="par" id="p10">
+                <h1 class="par-desc" id="par10">High Fidelity Prototype</h1>
+                <div class="underline"></div>
+                <p class="par-txt" id="par6-txt">The final high-fidelity prototype presented cleaner user flows for pairing the device and connecting to other users.</p>
+                <p class="par-txt" id="par6-txt">View the GameMaster high-fidelity prototype <span class="link">https://www.figma.com/file/rgjyc5rzIj6ou7kfBCi9f6/hifi-prototype?t=R943qyLXV9gUxDVY-1</span></p>
+            </div>
+            <h2 class="mid" id="mid3">Key Mockups</h2>
+            <div class="big" id="key">
+                <img src="game/key1.png" alt="key mockups">
+            </div>
+            <div class="big" id="key">
+                <img src="game/key2.png" alt="key mockups">
+            </div>
+            <div class="par" id="p11">
+                <h1 class="par-desc" id="par11">Takeaways</h1>
+                <div class="underline"></div>
+            </div>
+            <div class="desc" id="take">
+                <div class="desc1" id="take1">
+                    <h2 class="description" id="role">Impact</h2>
+                    <p class="desc-txt" id="role-txt">The app makes users feel like they finally got what they wished for, making the overall experience of playing the arcade games way more pleasant.</p>
+                </div>
+                <div class="desc2" id="take2">
+                    <h2 class="description" id="tool">What I've learned</h2>
+                    <p class="desc-txt" id="tool-txt">While designing the GameMaster app, I learned that the first ideas for the app are only the beginning of the process. Usability studies and peer feedback influenced each iteration of the app’s designs.</p>
+                </div>
+            </div>
+            <h2 class="mid" id="mid5">Next Steps</h2>
+            <div class="cards">
+                <div id="card1-2">
+                    <div class="card" id="first-card">
+                        <div class="card-back" id="back1">
+                            <h3 class="card-title" id="title1"></h3>
+                            <p class="card-txt" id="txt1">Conduct another round of usability studies to validate whether the pain points users experienced have been effectively addressed.</p>
+                        </div>
+                        <div class="card-circle" id="circle1">
+                            <h1 class="card-number" id="number1">1</h1>
+                        </div>
+                    </div>
+                </div>
+                <div id="card2-2">
+                    <div class="card" id="sec-card">
+                        <div class="card-back" id="back2">
+                            <h3 class="card-title" id="title2"></h3>
+                            <p class="card-txt" id="txt2">Conduct more user research to determine any new areas of need.</p>
+                        </div>
+                        <div class="card-circle" id="circle2">
+                            <h1 class="card-number" id="number2">2</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </body>
+</html> 
