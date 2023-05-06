@@ -474,7 +474,7 @@ main p {
 
 
 #mid2 {
-  margin-bottom: 10%;
+  margin-bottom: 200px;
 }
 
 #p6 {
@@ -563,7 +563,7 @@ main p {
 
 .cards {
   width: 100%;
-  height: 200px;
+  height: 10px;
   margin: auto;
   display: flex;
   justify-content: space-evenly;
@@ -784,9 +784,7 @@ main p {
   opacity: 1;
 }
 
-#par6-txt {
-  text-align: ;
-}
+
 
 #btn-9:not(:checked) ~ .slides .slide:nth-child(1) {
   animation-name: swap-out;
@@ -868,6 +866,20 @@ main p {
 
 /* carousel 6 end */
 
+.mobile-desktop {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 10vh;
+}
+
+.h {
+  text-align: center;
+  color: #4ea699;
+  font-weight: bold;
+}
+
+
 #par6-txt {
   margin-bottom: 2vw;
 }
@@ -901,187 +913,68 @@ main p {
   margin-bottom: 3vw;
 }
 
-/* carousel 7 */
-
-#slider7 {
-  height: 60vw;
-  width: 30%;
-}
-
-.slider-controls7 {
-  position: absolute;
-  bottom: 0px;
-  left: 50%;
-  width: 200px;
-  text-align: center;
-  transform: translatex(-50%);
-  z-index: 1000;
-
-  list-style: none;
-  text-align: center;
-}
-
-.slider-controls7 label {
-  display: inline-block;
-  border: none;
-  height: 1vw;
-  width: 1vw;
-  border-radius: 50%;
-  cursor: pointer;
-  background-color: #212121;
-  transition: background-color 0.2s linear;
-}
-
-.slide-content7 {
-  width: 100%;
-  margin-left: 13%;
-}
-
-
-#be-af {
-  margin: auto;
-  display: block;
-}
-
-#img-mobile {
-  margin-left: 4vw;
-}
-
-#img-desktop {
-  margin-left: 1.6vw;
-}
-
-#btn-13:checked ~ .slider-controls7 label[for="btn-13"] {
-  background-color:#4ea699;
-}
-
-#btn-14:checked ~ .slider-controls7 label[for="btn-14"] {
-  background-color: #4ea699;
-}
-
-
-/* Slide animations */
-#btn-13:checked ~ .slides .slide:nth-child(1) {
-  transform: translatex(0);
-  opacity: 1;
-}
-
-#btn-14:checked ~ .slides .slide:nth-child(2) {
-  transform: translatex(0);
-  opacity: 1;
-}
-
-
-
-#btn-13:not(:checked) ~ .slides .slide:nth-child(1) {
-  animation-name: swap-out;
-  animation-duration: 300ms;
-  animation-timing-function: linear;
-}
-
-#btn-14:not(:checked) ~ .slides .slide:nth-child(2) {
-  animation-name: swap-out;
-  animation-duration: 300ms;
-  animation-timing-function: linear;
-}
-
-/* carousel 7 end */
-
-/* carousel 7 */
-
-#slider8 {
-  height: 60vw;
-  width: 30%;
-}
-
-.slider-controls8 {
-  position: absolute;
-  bottom: 0px;
-  left: 50%;
-  width: 200px;
-  text-align: center;
-  transform: translatex(-50%);
-  z-index: 1000;
-
-  list-style: none;
-  text-align: center;
-}
-
-.slider-controls8 label {
-  display: inline-block;
-  border: none;
-  height: 1vw;
-  width: 1vw;
-  border-radius: 50%;
-  cursor: pointer;
-  background-color: #212121;
-  transition: background-color 0.2s linear;
-}
-
-.slide-content8 {
-  width: 100%;
-  margin-left: 13%;
-}
-
-
-#be-af {
-  margin: auto;
-  display: block;
-}
-
-#img-mobile {
-  margin-left: 4vw;
-}
-
-#img-desktop {
-  margin-left: 1.6vw;
-}
-
-#btn-15:checked ~ .slider-controls8 label[for="btn-15"] {
-  background-color:#4ea699;
-}
-
-#btn-16:checked ~ .slider-controls8 label[for="btn-16"] {
-  background-color: #4ea699;
-}
-
-
-/* Slide animations */
-#btn-15:checked ~ .slides .slide:nth-child(1) {
-  transform: translatex(0);
-  opacity: 1;
-}
-
-#btn-16:checked ~ .slides .slide:nth-child(2) {
-  transform: translatex(0);
-  opacity: 1;
-}
-
-
-
-#btn-15:not(:checked) ~ .slides .slide:nth-child(1) {
-  animation-name: swap-out;
-  animation-duration: 300ms;
-  animation-timing-function: linear;
-}
-
-#btn-16:not(:checked) ~ .slides .slide:nth-child(2) {
-  animation-name: swap-out;
-  animation-duration: 300ms;
-  animation-timing-function: linear;
-}
-
-/* carousel 7 end */
 
 #take {
-  width: 80%;
+  width: 100%;
   margin-bottom: 5vw;
+}
+
+.desc-txt2 {
+  width: 90%;
 }
 
 #mid5 {
   margin-bottom: 10vw;
 }
 
+
+/* cards 2 */
+
+.cards2 {
+  width: 80%;
+  height: 600px;
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.card-back2 {
+  width: 100%;
+  height: 400px;
+  background-color: #f9f9f9;
+  border-radius: 5%;
+  z-index: 0;
+}
+
+#card4, #card5 {
+  width: 20%;
+}
+
+/* cards 2 end */
+
+/*footer */
+
+.footer {
+  color: #f9f9f9;
+  font-size: 0.8vw;
+  text-align: center; 
+  height: 3.5vw;
+  margin: auto;
+}
+
+.footer p {
+  margin-bottom: 0px;
+}
+
+.foot-year {
+  margin-top: 0px;
+}
+
+.foot-name {
+  margin-top: 0;
+}
+
+/*footer end */
 
 /* tablet horizontal */
 
@@ -1120,6 +1013,7 @@ main p {
     margin-left: 0;
   }
 }
+
 
 /* tablet vertical */
 

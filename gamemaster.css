@@ -519,7 +519,8 @@ main p {
 /* cards */
 
 .cards {
-  width: 70%;
+  width: 80%;
+  height: 10px;
   margin: auto;
   display: flex;
   justify-content: space-evenly;
@@ -541,21 +542,9 @@ main p {
   width: 20%;
 }
 
-#card1-2 {
-  width: 25%;
-}
-  
-#card2-2 {
-  width: 25%;
-}
-  
-#card3-2 {
-  width: 25%;
-}
-
 .card-back {
   width: 100%;
-  height: 46vh;
+  height: 400px;
   background-color: #f9f9f9;
   border-radius: 5%;
   z-index: 0;
@@ -589,18 +578,15 @@ main p {
   width: 12vw;
   height: 12vw;
   background-color: #4ea699;
-  border-radius: 100%;  
-}
-
-#title1-1, #title3-1, #title4-1 {
-    margin-bottom: 20%;
+  border-radius: 100%;
+  
 }
 
 .card-circle {
   width: 100%;
   z-index: 1;
   margin: auto;
-  margin-top: -60vh;
+  margin-top: -500px;
 }
 
 .card-txt {
@@ -608,6 +594,7 @@ main p {
   width: 80%;
   margin: auto;
   text-align: center;
+  vertical-align: middle;
   font-size: 1.2rem;
 }
 
@@ -621,7 +608,9 @@ main p {
   font-size: 1.5rem;
 }
 
-
+#title2, #title3 {
+  margin-bottom: 20%;
+}
 
 .card-number {
   font-size: 3.5vw;
@@ -1003,6 +992,53 @@ main p {
   margin-bottom: 10vw;
 }
 
+/*footer */
+
+.footer {
+  color: #f9f9f9;
+  font-size: 0.8vw;
+  text-align: center; 
+  height: 3.5vw;
+  margin: auto;
+}
+
+.footer p {
+  margin-bottom: 0px;
+}
+
+.foot-year {
+  margin-top: 0px;
+}
+
+.foot-name {
+  margin-top: 0;
+}
+
+/*footer end */
+
+/* cards 2 */
+
+.cards2 {
+  width: 80%;
+  height: 600px;
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.card-back2 {
+  width: 100%;
+  height: 400px;
+  background-color: #f9f9f9;
+  border-radius: 5%;
+  z-index: 0;
+}
+
+#card5, #card6 {
+  width: 20%;
+}
+
+/* cards 2 end */
 
 /* tablet horizontal */
 
