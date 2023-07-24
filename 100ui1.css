@@ -43,7 +43,7 @@ nav {
 
 nav a {
   margin-right: 1vw;
-  font-size: 1.2vw;
+  
 }
 
 nav a:link {
@@ -116,12 +116,17 @@ main {
 .par {
     color: #4ea699;
     margin: auto;
+    width: 80%;
+    font-size: 2rem;
+}
+
+#intro {
+    font-size: 2rem;
 }
 
 
-
 .underline {
-    width: 100%;
+    width: 80%;
     margin: auto;
     height: 3px;
     background-color: #4ea699;
@@ -130,6 +135,9 @@ main {
 
 main p {
     color: #f9f9f9;
+    width: 80%;
+    margin: auto;
+    font-size: 1.2rem;
 }
 
 .description {
@@ -146,6 +154,18 @@ main p {
     width: auto;
     margin: 0 auto;
     display: block;
+}
+
+.video {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+iframe {
+    align-self: center;
+    margin-top: 5vh;
 }
 
 #mc2, #mc4 {
