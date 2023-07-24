@@ -1,0 +1,173 @@
+body {
+    background-color: #253031;
+    font-family: 'Lato', sans-serif;
+    margin: auto;
+}
+
+.topbar {
+    background-color: rgba(78, 166, 153, 0.4);
+    height: 60px;
+    z-index: 1;
+    position: fixed;
+    width: 100%;
+
+}
+ 
+header a:link {
+    text-decoration: none;
+    color: #f9f9f9;
+    z-index: 9999; 
+}
+
+.logo {
+  margin-left: 1vw;
+  font-size: 1.2vw;
+}
+
+.logo:hover {
+  font-size: 1.4vw;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+   padding: 0px 10px;
+   height: 100%;
+   align-items: center;
+   
+}
+
+nav {
+    z-index: 9999;
+}
+
+nav a {
+  margin-right: 1vw;
+  font-size: 1.2vw;
+}
+
+nav a:link {
+    opacity: 50%;
+}
+
+nav a:hover {
+    opacity: 100%;
+    font-size: 1.4vw;
+}
+
+nav a:active {
+    opacity: 100%;
+    font-weight: bold;
+}
+
+nav a:visited {
+    color: #f9f9f9;
+}
+
+header a:visited {
+    color: #f9f9f9;
+}
+
+
+#heroimage {
+    width: 100%; 
+    filter: grayscale(100%) blur(4px) brightness(50%);
+    position: absolute;
+    z-index: -1;
+    height: 900px;
+    mix-blend-mode: luminosity;
+    margin: auto;
+}
+
+#herobcg {
+    width: 100%; 
+    position: absolute;
+    z-index: -1;
+    height: 900px;
+    filter: blur(4px);
+}
+
+
+
+.centered {
+    margin: auto;
+    
+}
+
+#big {
+    color: #f9f9f9;
+    font-size: 5vw;
+    text-align: center;
+    margin-top: 0;
+    padding-top: 18%;
+}
+
+#small {
+    color: #f9f9f9;
+    font-size: 2vw;
+    text-align: center;
+}
+
+main {
+    width: 80%;
+    margin: auto;
+}
+
+.par {
+    color: #4ea699;
+    margin: auto;
+}
+
+
+
+.underline {
+    width: 100%;
+    margin: auto;
+    height: 3px;
+    background-color: #4ea699;
+    margin-bottom: 2%;
+}
+
+main p {
+    color: #f9f9f9;
+}
+
+.description {
+    margin-bottom: 80px;
+    margin-top: 550px;
+}
+
+.challenge {
+    margin-bottom: 80px;
+}
+
+.mockup {
+    height: 700px;
+    width: auto;
+    margin: 0 auto;
+    display: block;
+}
+
+#mc2, #mc4 {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+#mc7 {
+    margin-top: 80px;
+}
+
+#challenge10 {
+    margin-bottom: 150px;
+}
+
+h1 {
+text-align: center;
+}
+
+#stay {
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    color: #4ea699;
+}
