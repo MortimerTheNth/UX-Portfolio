@@ -21,7 +21,7 @@ header a:link {
 
 .logo {
   margin-left: 1vw;
-  font-size: 1.2vw;
+  font-size: 1rem;
 }
 
 .logo:hover {
@@ -43,7 +43,7 @@ nav {
 
 nav a {
   margin-right: 1vw;
-  font-size: 1.2vw;
+  font-size: 1rem;
 }
 
 nav a:link {
@@ -108,6 +108,11 @@ header a:visited {
     text-align: center;
 }
 
+#small2 {
+  color: #f9f9f9;
+  text-align: center;
+}
+
 .about {
     display: grid;
     justify-items: center;
@@ -141,6 +146,7 @@ button {
     height: 3vw;
     width: 10vw;
     min-width: 150px;
+    cursor: pointer;
 }
 
 button:hover {
@@ -217,7 +223,7 @@ button:active {
 .wrktxt {
     font-size: 2.5vw;
     color: #f9f9f9;
-    position: absolute;
+    
     margin-left: 40%;
     margin-top: 12px;
 }
@@ -488,6 +494,47 @@ button:active {
   }
 
   .social {
-    column-gap: 2vw;
-    font-size: 1.5vw;
+    display: flex;
+    justify-content: center;
+    width: 5%;
+    margin: auto;
   }
+
+
+  .btn2 {
+    background: none;
+    border: none;
+    font-size: 2.5rem;
+    color: #f9f9f9;
+    cursor: pointer;
+  }
+
+  .btn2:hover {
+    background: none;
+    font-size: 3rem;
+    color: #F2892B;
+  }
+
+  /*footer */
+
+.footer {
+  color: #f9f9f9;
+  font-size: 0.8vw;
+  text-align: center; 
+  height: 3.5vw;
+  margin: auto;
+}
+
+.footer p {
+  margin-bottom: 0px;
+}
+
+.foot-year {
+  margin-top: 0px;
+}
+
+.foot-name {
+  margin-top: 0;
+}
+
+/*footer end */
